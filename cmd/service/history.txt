@@ -1,0 +1,76 @@
+    1  git --version
+    2  sudo apt update
+    3  sudo apt install git
+    4  git clone https://github.com/georgetaylor551/wazuh_jumpcloud.git
+    5  cd wazuh_jumpcloud
+    6  sudo apt update
+    7  sudo apt install golang-go
+    8  export GOPATH=$HOME/go
+    9  export PATH=$PATH/usr/local/go/bin:$GOPATH/bin
+   10  source ~/.bashrc
+   11  go build -o wazuh-jumpcloud-integration main.go
+   12  ls
+   13  ls main.go
+   14  find . -name "main.go
+   15  find . -name "main.go"
+   16  cd ./cmd/service/main.go
+   17  cd ./cmd/service
+   18  ls
+   19  go build -o wazuh-jumpcloud-integration main.go
+   20  ls
+   21  cd ~/wazuh_jumpcloud
+   22  ls
+   23  cd ~/wazuh_jumpcloud/pkg
+   24  ls
+   25  nano jumpcloud_api.go
+   26  apt remove golang-go
+   27  wget https://go.dev/d1/go1.19.linux-amd64.tar.gz
+   28  wget https://go.dev/dl/go1.19.linux-amd64.tar.gz
+   29  sudo tar -C /usr/local -xzf
+   30  _api.go:209:2: syntax error: non-declaration statement outside function body
+   31  sudo tar -C /usr/local -xzf go1.19.linux-amd64.tar.gz
+   32  nano ~/.bashrc
+   33  source ~/.bashrc
+   34  go version
+   35  cd ./cmd/service
+   36  cd ~/wazuh_jumpcloud
+   37  cd ./cmd/service
+   38  go build -o wazuh-jumpcloud-integration main.go
+   39  cd ~/wazuh_jumpcloud
+   40  ls
+   41  cd ~/wazuh_jumpcloud/pkg
+   42  ls
+   43  nano jumpcloud_api.go
+   44  cd ~/wazuh_jumpcloud
+   45  cd ./cmd/service
+   46  go build -o wazuh-jumpcloud-integration main.go
+   47  ls
+   48  cd ~/wazuh_jumpcloud
+   49  git add wazuh-jumpcloud-integration
+   50  cd ./cmd/service/wazuh-jumpcloud-integration
+   51  git add ./cmd/service/wazuh-jumpcloud-integration
+   52  ls
+   53  git commit -m "add exe to wazuh-inter"
+   54  git push origin main
+   55  where should i add this file on git hub?
+   56  sudo nautilus
+   57  ls
+   58  cd ./cmd/service/wazuh-jumpcloud-integration
+   59  cd ./cmd/service
+   60  ls
+   61  ifconfig
+   62  ipconfig
+   63  ip
+   64  sudo apt install ifconfig
+   65  sudo apt-get install ifconfig
+   66  sudo apt-get install net-tools
+   67  ifconfig 
+   68  python3 -m http.server
+   69  la
+   70  ls
+   71  python3 -m http.server
+   72  cp wazuh-jumpcloud-integration ~/Desktop/ 
+   73  cp wazuh-jumpcloud-integration /home/user/Desktop/ 
+   74  histroy
+   75  history
+   76  history > /home/user/Desktop/history.txt 
