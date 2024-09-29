@@ -280,3 +280,19 @@ type JumpCloudAdminEvent struct {
 	ID           string    `json:"id"`
 	Timestamp    time.Time `json:"timestamp"`
 }
+
+type JumpCloudPasswordManagerEvent struct {
+    JumpCloudEventType string    `json:"jumpcloud_event_type"`
+    InitiatedBy        struct {
+        ID    string `json:"id"`
+        Type  string `json:"type"`
+        Email string `json:"email"`
+    } `json:"initiated_by"`
+    Resource struct {
+        ID       string `json:"id"`
+        Type     string `json:"type"`
+        Username string `json:"username"`
+    } `json:"resource"`
+    EventType    string    `json:"event_type"`
+    Timestamp    time.Time `json:"timestamp"`
+}
