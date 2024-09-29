@@ -87,12 +87,13 @@ func (a *JumpCloudAPI) GetEventsSinceTime(startTime time.Time) (*JumpCloudEvents
 }
 
 type JumpCloudEvents struct {
-	LDAP      []JumpCloudLDAPEvent      `json:"ldap_events"`
-	Systems   []JumpCloudSystemEvent    `json:"systems"`
-	Directory []JumpCloudDirectoryEvent `json:"directory"`
-	Radius    []JumpCloudRadiusEvent    `json:"radius"`
-	SSO       []JumpCloudSSOEvent       `json:"sso"`
-	Admin     []JumpCloudAdminEvent     `json:"admin"`
+	LDAP            []JumpCloudLDAPEvent            `json:"ldap_events"`
+	Systems         []JumpCloudSystemEvent          `json:"systems"`
+	Directory       []JumpCloudDirectoryEvent       `json:"directory"`
+	Radius          []JumpCloudRadiusEvent          `json:"radius"`
+	SSO             []JumpCloudSSOEvent             `json:"sso"`
+	Admin           []JumpCloudAdminEvent           `json:"admin"`
+	PasswordManager []JumpCloudPasswordManagerEvent `json:"password_manager"`
 }
 
 type BaseJumpCloudEvent struct {
